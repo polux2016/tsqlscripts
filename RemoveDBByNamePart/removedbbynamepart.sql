@@ -25,6 +25,7 @@ BEGIN
 	DECLARE @DelteDBTemplate NVARCHAR(MAX) = 
 		'
 		EXEC msdb.dbo.sp_delete_database_backuphistory @database_name = N''' + @DBMark + '''
+		ALTER DATABASE [' + @DBMark + '] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 		DROP DATABASE [' + @DBMark + ']
 		'
 	DECLARE @SQL NVARCHAR(MAX) = ''
