@@ -18,8 +18,3 @@ GO
 [dbo].sp_beckupdbbynamepart '%db_part_name%'
 GO
 ```
-
-# Plans for improving
- - Work on azure 
- - Work with other folder with access checking
- - Work with ftp and shared folders
