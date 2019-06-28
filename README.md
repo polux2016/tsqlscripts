@@ -6,6 +6,8 @@
 **[Script to backing up all databases from the server by part of the name](BeckupDBByNamePart/README.md)**
 
 # Plans for improving
- - Work on azure for backup and restore stored procedures
- - Work with other folder with access checking for backup and restore stored procedure
- - Work with ftp and shared folders for backup and restore stored procedure
+- Improving the backup and restore stored procedures
+  - Work on azure
+  - Work with other folder with access checking
+  - Work with ftp and shared folders
+  - Work with specific bd by prefix or/and creating the backup with specific format
