@@ -14,6 +14,6 @@ GO
 ```
 **Remove DBs by part of the name**
 ```sql
-[dbo].sp_removedbbynamepart '%db_part_name%',
+[dbo].sp_removedbbynamepart '%db_part_name%'
 GO
 ```
