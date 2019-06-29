@@ -5,6 +5,8 @@
 
 **[Script to backing up all databases from the server by part of the name](BeckupDBByNamePart/README.md)**
 
+**[Script to restore to the latest backup all databases from the server by part of the name](RestoreLatestDBByNamePart/README.md)**
+
 # Plans for improving
 - Improving the backup and restore stored procedures
   - Work on azure
