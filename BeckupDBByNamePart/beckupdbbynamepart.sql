@@ -39,7 +39,7 @@ BEGIN
 			'no_output' 
 	SET @BeckupFile = @BeckupPath + N'\' + @DBMark + N'_' + @TimeMark
 
-	DECLARE @DelteDBTemplate NVARCHAR(MAX) = 
+	DECLARE @BeckupDBTemplate NVARCHAR(MAX) = 
 		'BACKUP DATABASE [' + @DBMark + '] TO  
 			DISK = ''' + @BeckupFile + '.bak''
 			WITH NOFORMAT, NOINIT,  
@@ -62,7 +62,7 @@ BEGIN
 	WHILE @@FETCH_STATUS = 0
 	BEGIN
 		
-		SET @SQL = REPLACE(@DelteDBTemplate, @DBMark, @DBName)
+		SET @SQL = REPLACE(@BeckupDBTemplate, @DBMark, @DBName)
 		IF @Mode = 'dbs' PRINT @DBName
 		IF @Mode = 'scripts' PRINT @SQL
 		IF @Mode = 'run' EXEC sp_executesql @SQL
