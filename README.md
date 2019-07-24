@@ -9,6 +9,7 @@
 
 # Plans for improving
 - Improving the backup and restore stored procedures
+  - Restoring DB with creation from beckups 
   - Work on azure
   - Work with other folder with access checking
   - Work with ftp and shared folders
