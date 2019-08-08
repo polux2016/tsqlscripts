@@ -14,3 +14,4 @@
   - Work with other folder with access checking
   - Work with ftp and shared folders
   - Work with specific bd by prefix or/and creating the backup with specific format
+  - Add stored procedure that removes all Beckups accept the assigned ones
