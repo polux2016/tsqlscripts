@@ -15,3 +15,6 @@
   - Work with ftp and shared folders
   - Work with specific bd by prefix or/and creating the backup with specific format
   - Add stored procedure that removes all Beckups accept the assigned ones
+- Utils
+  - Add script to generate a copy of data with/without all dependency tree (with "n" levels)
+  - Script that will find value in eny column by text part in table/column/value with generating scripts for search 
