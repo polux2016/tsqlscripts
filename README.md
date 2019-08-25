@@ -19,3 +19,4 @@
   - Script to generate a copy of data with/without all dependency tree (with "n" levels)
   - Script that will find value in eny column by text part in table/column/value with generating scripts for search 
   - Scripts to generate CREATE/UPDATE/DELETE for special tables with filtration (WHERE part) 
+  - Generating Classes with relations for EF Core 
