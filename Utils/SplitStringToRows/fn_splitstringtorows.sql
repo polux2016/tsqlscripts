@@ -10,7 +10,7 @@ GO
 CREATE FUNCTION fn_splitstringtorows 
 (
     @String NVARCHAR(4000),
-    @Delimiter NCHAR(1)
+    @Delimiter NCHAR(1) = ','
 )
 RETURNS TABLE
 AS

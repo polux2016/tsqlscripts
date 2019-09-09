@@ -6,6 +6,9 @@ Manually Tested for SQL Server 2017 (14.0)
 # How to use
 **Split string. Default separator is ','.**
 ```sql
+USE [master]
+GO 
+
 SELECT *
 FROM [dbo].[fn_splitstringtorows] ('1,22,333,4444', ',')
 GO
