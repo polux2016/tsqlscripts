@@ -7,6 +7,10 @@
 
 **[Script to restore to the latest backup all databases from the server by part of the name](RestoreDBByNamePart/README.md)**
 
+# The useful utils
+
+**[Splitting one string to several rows](Utils/SplitStringToRows/README.md)**
+
 # Plans for improving
 - Improving the backup and restore stored procedures
   - Work on azure
